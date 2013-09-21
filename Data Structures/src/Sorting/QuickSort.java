@@ -66,14 +66,16 @@ public class QuickSort {
                 return 0;*/
                 
             }
-       }
-
+        
         int t = x[up];
         x[up] = x[lbIndex];
         x[lbIndex] = t;
         return 0;
+       }
 
-    }
+        
+
+    
 
     static void printArray(int[] ar) {
         for (int i = 0; i < ar.length; i++) {
